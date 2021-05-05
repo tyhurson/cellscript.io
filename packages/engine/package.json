@@ -5,7 +5,8 @@
   "version": "0.0.0",
   "scripts": {
     "build": "tsc -b .",
-    "clean": "rimraf dist *.tsbuildinfo"
+    "clean": "rimraf dist *.tsbuildinfo",
+    "lint": "eslint src --ext ts"
   },
   "dependencies": {
     "@cellscript/redux": "0.0.0",

@@ -8,7 +8,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "yarn run bootstrap && lerna run build",
-    "clean": "lerna run clean && lerna clean --yes"
+    "clean": "lerna run clean && lerna clean --yes",
+    "lint": "lerna run lint"
   },
   "workspaces": [
     "packages/*"
@@ -16,6 +17,10 @@
   "devDependencies": {
     "@babel/preset-env": "^7.14.1",
     "@babel/preset-typescript": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
     "lerna": "^4.0.0",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
