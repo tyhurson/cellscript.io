@@ -4,9 +4,12 @@
   "types": "dist/index.d.ts",
   "version": "0.0.0",
   "scripts": {
-    "build": "tsc -b .",
-    "clean": "rimraf dist *.tsbuildinfo",
-    "lint": "eslint src --ext ts"
+    "build": "scripty",
+    "clean": "scripty",
+    "lint": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts/package"
   },
   "dependencies": {
     "@cellscript/api": "0.0.0",

@@ -1,83 +1,44 @@
-# Dependencies
-node_modules
-/.pnp
-.pnp.js
-
-# Testing
-coverage
-
-# Production
-dist
-
-# misc
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.code-workspace
+*.iws
 .DS_Store
-.env.local
 .env.development.local
-.env.test.local
+.env.local
 .env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
-
-# Generated files
+.env.test.local
+.history/
 .idea/**/contentModel.xml
-
-# Sensitive or high-churn files
-.idea/**/dataSources/
 .idea/**/dataSources.ids
 .idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
+.idea/**/dataSources/
 .idea/**/dbnavigator.xml
-
-# Gradle
+.idea/**/dictionaries
+.idea/**/dynamic.xml
 .idea/**/gradle.xml
 .idea/**/libraries
-
-# CMake
-cmake-build-*/
-
-# Mongo Explorer plugin
 .idea/**/mongoSettings.xml
-
-# File-based project format
-*.iws
-
-# IntelliJ
-out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Cursive Clojure plugin
-.idea/replstate.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
-# Editor-based Rest Client
+.idea/**/shelf
+.idea/**/sqlDataSources.xml
+.idea/**/tasks.xml
+.idea/**/uiDesigner.xml
+.idea/**/usage.statistics.xml
+.idea/**/workspace.xml
 .idea/httpRequests
-
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
-
-# Lerna
+.idea/replstate.xml
+.idea_modules/
+.pnp.js
+.vscode/*
+/.pnp
+atlassian-ide-plugin.xml
+cmake-build-*/
+coverage
+dist
 lerna-debug.log
-
-# Typescript
+node_modules
+npm-debug.log*
 tsconfig.tsbuildinfo
+yarn-debug.log*
+yarn-error.log*
