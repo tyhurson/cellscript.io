@@ -1,13 +1,14 @@
 {
   "name": "cellscript-empire",
-  "version": "1.0.0",
   "description": "The monorepo for the web-based strategy game Cellscript Empire",
   "main": "index.js",
   "author": "Tyler Hurson",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "tsc -b ."
+    "bootstrap": "lerna bootstrap",
+    "build": "yarn run bootstrap && lerna run build",
+    "clean": "lerna run clean && lerna clean --yes"
   },
   "workspaces": [
     "packages/*"
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.14.1",
     "@babel/preset-typescript": "^7.13.0",
+    "lerna": "^4.0.0",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "ts-node": "^9.1.1",

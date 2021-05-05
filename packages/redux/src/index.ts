@@ -1,4 +1,4 @@
-import { add } from "cellscript-util";
+import { add } from "@cellscript/util";
 
 export function multiply(a: number, b: number): number {
   let result = 0;
