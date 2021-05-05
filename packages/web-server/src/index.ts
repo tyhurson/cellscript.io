@@ -1,5 +1,3 @@
-import { add } from "@cellscript/util";
-
-export function subtract(a: number, b: number): number {
-  return add(a, -b);
+export function returns1(): number {
+  return 1;
 }

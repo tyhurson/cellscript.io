@@ -6,7 +6,8 @@
   "scripts": {
     "build": "scripty",
     "clean": "scripty",
-    "lint": "scripty"
+    "lint": "scripty",
+    "test": "scripty"
   },
   "scripty": {
     "path": "../../scripts/package"

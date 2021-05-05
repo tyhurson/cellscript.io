@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-rimraf dist ./*.tsbuildinfo
+rimraf dist coverage ./*.tsbuildinfo
