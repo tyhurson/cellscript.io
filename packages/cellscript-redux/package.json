@@ -1,0 +1,14 @@
+{
+  "name": "cellscript-redux",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b .",
+    "clean": "rimraf dist *.tsbuildinfo"
+  },
+  "dependencies": {
+    "cellscript-util": "1.0.0"
+  },
+  "type": "module"
+}

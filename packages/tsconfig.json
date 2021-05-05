@@ -1,0 +1,22 @@
+{
+  "references": [
+    {
+      "path": "cellscript-api"
+    },
+    {
+      "path": "cellscript-engine"
+    },
+    {
+      "path": "cellscript-game-web"
+    },
+    {
+      "path": "cellscript-redux"
+    },
+    {
+      "path": "cellscript-util"
+    },
+    {
+      "path": "cellscript-web-server"
+    }
+  ]
+}

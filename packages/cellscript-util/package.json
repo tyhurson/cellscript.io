@@ -1,0 +1,15 @@
+{
+  "name": "cellscript-util",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b .",
+    "clean": "rimraf dist *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.27.40",
+    "ramda": "^0.27.1"
+  },
+  "type": "module"
+}
