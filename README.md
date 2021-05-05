@@ -3,7 +3,7 @@
 
 
 ## Development Roadmap
-_Cellscript Empire_ is current in development. You can track the progress of the project in the table below.
+_Cellscript Empire_ is currently in development. You can track the progress of the project in the table below.
 
 |ETA|Status|Task|
 |---|---|---|
