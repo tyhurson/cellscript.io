@@ -17,6 +17,6 @@ phases:
   post_build:
     commands:
       - echo Build succeeded
-  artifacts:
-    files:
-      - package.json
+artifacts:
+  files:
+    - package.json
