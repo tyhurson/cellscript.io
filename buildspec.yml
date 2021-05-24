@@ -20,7 +20,7 @@ phases:
 
 artifacts:
   files:
-    - package.json
+    - 'packages/*/dist/bundle.*.js'
 
 reports:
   jest-report:
