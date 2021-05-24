@@ -7,13 +7,13 @@ phases:
   pre_build:
     commands:
       - echo Installing dependencies
-      - npm install
+      - yarn install
   build:
     commands:
       - echo Building code
-      - npm run build
+      - yarn run build
       - echo Executing unit tests
-      - npm run test
+      - yarn run test
   post_build:
     commands:
       - echo Build succeeded
