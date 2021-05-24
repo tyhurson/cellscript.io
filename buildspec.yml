@@ -25,10 +25,5 @@ artifacts:
 reports:
   jest-report:
     files:
-      - 'packages/api/coverage/clover.xml'
-      - 'packages/engine/coverage/clover.xml'
-      - 'packages/game-web/coverage/clover.xml'
-      - 'packages/redux/coverage/clover.xml'
-      - 'packages/util/coverage/clover.xml'
-      - 'packages/web-server/coverage/clover.xml'
+      - 'packages/*/coverage/clover.xml'
     file-format: 'CLOVERXML'
