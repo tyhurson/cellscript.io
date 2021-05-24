@@ -4,9 +4,11 @@
   "types": "dist/index.d.ts",
   "version": "0.0.0",
   "scripts": {
-    "build": "scripty",
+    "build": "yarn run package",
     "clean": "scripty",
+    "compile": "yarn run package",
     "lint": "scripty",
+    "package": "scripty",
     "test": "scripty"
   },
   "scripty": {

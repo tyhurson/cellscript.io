@@ -9,7 +9,9 @@
     "bootstrap": "scripty",
     "build": "scripty",
     "clean": "scripty",
+    "compile": "yarn run build",
     "lint": "scripty",
+    "package": "yarn run package",
     "test": "scripty"
   },
   "scripty": {
