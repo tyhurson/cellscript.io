@@ -1,3 +1,3 @@
 export function returns1(): number {
-  return 1;
+  return 1 + "a";
 }
