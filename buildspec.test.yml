@@ -6,21 +6,10 @@ phases:
       nodejs: 12
   pre_build:
     commands:
-      - echo Installing dependencies
       - yarn install
   build:
     commands:
-      - echo Building code
-      - yarn run build
-      - echo Executing unit tests
       - yarn run test
-  post_build:
-    commands:
-      - echo Build succeeded
-
-artifacts:
-  files:
-    - 'packages/*/dist/bundle.*.js'
 
 reports:
   jest-report:
