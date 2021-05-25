@@ -11,8 +11,11 @@
     "clean": "scripty",
     "compile": "yarn run build",
     "lint": "scripty",
-    "package": "yarn run package",
-    "test": "scripty"
+    "package": "yarn run build",
+    "test": "scripty",
+    "version:major": "lerna version major --no-push",
+    "version:minor": "lerna version minor --no-push",
+    "version:patch": "lerna version patch --no-push"
   },
   "scripty": {
     "path": "./scripts/workspace"
