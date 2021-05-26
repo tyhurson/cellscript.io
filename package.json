@@ -1,9 +1,26 @@
 {
-  "name": "root",
-  "description": "The monorepo for the web-based strategy game cellscript.io",
-  "author": "Tyler Hurson",
+  "name": "cellscript.io",
+  "description": "A real-time, 4X-style empire-building strategy game set in a procedurally generated 2D world where the player controls units by writing Javascript code.",
+  "keywords": [
+    "cellscript",
+    "educational",
+    "gaming",
+    "io",
+    "javascript",
+    "rts"
+  ],
+  "homepage": "https://github.com/tyhurson/cellscript.io",
+  "url": "https://cellscript.io",
+  "bugs": {
+    "url": "https://github.com/tyhurson/cellscript.io/issues",
+    "email": "support@cellscript.io"
+  },
   "license": "MIT",
-  "private": true,
+  "author": {
+    "name": "Tyler Hurson",
+    "email": "owner@cellscript.io",
+    "url": "https://www.linkedin.com/in/tyler-hurson-068b59b0/"
+  },
   "scripts": {
     "bootstrap": "yarn lerna bootstrap",
     "build": "yarn lerna bootstrap && yarn lerna run build",
@@ -16,9 +33,6 @@
     "version:minor": "yarn lerna version minor --no-push",
     "version:patch": "yarn lerna version patch --no-push"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@babel/preset-env": "^7.14.1",
     "@babel/preset-typescript": "^7.13.0",
@@ -34,5 +48,9 @@
     "scripty": "^2.0.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }

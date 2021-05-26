@@ -2,7 +2,7 @@ import * as React from "react";
 import Head from "next/head";
 import Link from "next/link";
 // @ts-ignore
-import meta from "../../../../static/meta.json";
+import metaInfo from "../../../../package.json";
 
 type AnchorProps = {
   url: string;
@@ -33,11 +33,11 @@ export default function App() {
   return (
     <>
       <Head>
-        <title>cellscript.io</title>
+        <title>{metaInfo.name}</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="author" content={meta.author} />
-        <meta name="copyright" content={meta.author} />
-        <meta name="description" content={meta.description} />
+        <meta name="author" content={metaInfo.author.name} />
+        <meta name="copyright" content={metaInfo.author.name} />
+        <meta name="description" content={metaInfo.description} />
         <meta name="robots" content="index,follow" />
       </Head>
       <div className="outer">
@@ -53,10 +53,7 @@ export default function App() {
           <div className="links">
             <h3>Links</h3>
             <div className="links-list">
-              <Anchor
-                url="https://github.com/tyhurson/cellscript.io"
-                text="GitHub"
-              />
+              <Anchor url={metaInfo.homepage} text="GitHub" />
             </div>
           </div>
         </div>
