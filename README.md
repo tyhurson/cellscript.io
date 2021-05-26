@@ -22,4 +22,4 @@ cellscript.io is currently in development. You can track the progress of the pro
 This code is licensed under the [MIT License](./LICENSE), which grants permission to download, use, modify, or distribute the code.
 
 ## Contributing
-cellscript.io is open source, meaning anyone can contribute. See the [Contributing](./CONTRIBUTING.md) guide for more details.
+cellscript.io is open source, meaning anyone can contribute. See the [Contributing](docs/contributing.md) guide for more details.
