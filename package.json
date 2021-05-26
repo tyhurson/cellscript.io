@@ -10,7 +10,10 @@
     "rts"
   ],
   "homepage": "https://github.com/tyhurson/cellscript.io",
-  "url": "https://cellscript.io",
+  "urls": {
+    "game": "https://cellscript.io",
+    "reddit": "https://www.reddit.com/r/cellscript/"
+  },
   "bugs": {
     "url": "https://github.com/tyhurson/cellscript.io/issues",
     "email": "support@cellscript.io"

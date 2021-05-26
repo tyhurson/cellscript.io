@@ -17,6 +17,8 @@ function Anchor(props: AnchorProps) {
       </Link>
       <style jsx>{`
         a {
+          padding: 5px;
+          margin: 0 5px 0 5px;
           color: #8c76ff;
           text-decoration: none;
           transition: 250ms color;
@@ -54,6 +56,7 @@ export default function App() {
             <h3>Links</h3>
             <div className="links-list">
               <Anchor url={metaInfo.homepage} text="GitHub" />
+              <Anchor url={metaInfo.urls.reddit} text="Reddit" />
             </div>
           </div>
         </div>
@@ -109,7 +112,7 @@ export default function App() {
         }
 
         .links-list {
-          margin-top: 15px;
+          margin-top: 10px;
           display: flex;
           justify-content: center;
         }

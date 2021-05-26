@@ -20,6 +20,11 @@ This is the monorepo for the game's source code. It includes all the npm package
 |Jul 4, 2021|-|Add `say` method. Create simple integration test for game. Implement and launch web server (`@cellscript/web-server`).
 |**Jul 4, 2021**|**-**|**Release alpha version 0.0.1**
 
+## Community
+Visit the official cellscript.io subreddit [r/cellscript](https://www.reddit.com/r/cellscript/) to discuss the game, ask questions, and share your experience with other players.
+
+For topics related to development, use the [Issues tab](https://github.com/tyhurson/cellscript.io/issues) in this repository instead.
+
 ## Licensing
 This code is licensed under the [MIT License](./LICENSE), which grants permission to download, use, modify, or distribute the code.
 
