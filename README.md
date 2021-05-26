@@ -1,7 +1,7 @@
 # cellscript.io
 **cellscript.io** is a real-time, 4X-style empire-building strategy game set in a procedurally generated 2D world where the player controls units by writing Javascript code. It is available to play for free at [cellscript.io](https://cellscript.io).
 
-This is the monorepo for the game's source code. It includes all the npm packages published under the `@cellscript` scope.
+This is the monorepo for the game's source code, which includes all the npm packages published under the `@cellscript` scope.
 
 ## Development Roadmap
 **cellscript.io** is currently in development. You can track the progress of the project in the table below.
