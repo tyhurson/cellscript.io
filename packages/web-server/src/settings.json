@@ -1,0 +1,5 @@
+{
+  "port": 443,
+  "staticRoot": "public",
+  "staticUrl": "/static"
+}

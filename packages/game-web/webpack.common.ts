@@ -1,21 +1,22 @@
+const path = require("path");
+
 module.exports = {
-  cache: true,
-  devtool: "inline-source-map",
-  entry: "./src/index.ts",
-  mode: "development",
+  entry: "./src/index.tsx",
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: "ts-loader",
+        loader: "ts-loader",
         exclude: /node_modules/,
       },
     ],
   },
   output: {
-    filename: "bundle.[contenthash].js",
+    clean: true,
+    path: path.resolve(__dirname, "dist"),
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
+  target: "web",
 };

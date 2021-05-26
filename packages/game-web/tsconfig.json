@@ -1,9 +1,14 @@
 {
   "extends": "../../tsconfig.json",
+  "compileOnSave": false,
   "compilerOptions": {
     "composite": true,
+    "lib": [
+      "dom"
+    ],
+    "jsx": "react",
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
   },
   "include": [
     "src"

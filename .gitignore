@@ -29,6 +29,7 @@
 .idea/httpRequests
 .idea/replstate.xml
 .idea_modules/
+.npmrc
 .pnp.js
 .vscode/*
 /.pnp

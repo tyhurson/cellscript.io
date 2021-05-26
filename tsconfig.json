@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Node",
+    "esModuleInterop": true,
     "lib": ["ESNext"],
     "sourceMap": true,
     "target": "ESNext",
@@ -14,12 +15,10 @@
     "noImplicitReturns": true,
     "noImplicitAny": true,
     "declaration": true,
+    "resolveJsonModule": true,
     "outDir": "build",
     "rootDir": "src"
   },
   "include": ["src"],
-  "exclude": [
-    "node_modules",
-    "**/__test__/**",
-  ]
+  "exclude": ["node_modules", "**/__test__/**"]
 }

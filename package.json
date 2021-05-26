@@ -1,24 +1,18 @@
 {
   "name": "root",
   "description": "The monorepo for the web-based strategy game Cellscript Empire",
-  "main": "index.js",
   "author": "Tyler Hurson",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "bootstrap": "scripty",
-    "build": "scripty",
-    "clean": "scripty",
-    "compile": "yarn run build",
-    "lint": "scripty",
-    "package": "yarn run build",
-    "test": "scripty",
-    "version:major": "lerna version major --no-push",
-    "version:minor": "lerna version minor --no-push",
-    "version:patch": "lerna version patch --no-push"
-  },
-  "scripty": {
-    "path": "./scripts/workspace"
+    "bootstrap": "yarn lerna bootstrap",
+    "build": "yarn lerna bootstrap && yarn lerna run build",
+    "clean": "yarn lerna clean --yes && yarn lerna run clean --parallel",
+    "lint": "yarn lerna run lint --parallel",
+    "test": "yarn lerna run test --parallel",
+    "version:major": "yarn lerna version major --no-push",
+    "version:minor": "yarn lerna version minor --no-push",
+    "version:patch": "yarn lerna version patch --no-push"
   },
   "workspaces": [
     "packages/*"
@@ -36,11 +30,7 @@
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "scripty": "^2.0.0",
-    "ts-loader": "^9.2.2",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.4",
-    "webpack": "^5.37.1",
-    "webpack-cli": "^4.7.0",
-    "webpack-merge": "^5.7.3"
+    "typescript": "^4.2.4"
   }
 }

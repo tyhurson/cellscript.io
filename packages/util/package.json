@@ -2,17 +2,18 @@
   "name": "@cellscript/util",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "Tyler Hurson",
+  "license": "MIT",
   "version": "0.0.1",
   "scripts": {
-    "build": "yarn run compile",
+    "build": "scripty",
     "clean": "scripty",
     "compile": "scripty",
     "lint": "scripty",
-    "package": "yarn run compile",
     "test": "scripty"
   },
   "scripty": {
-    "path": "../../scripts/package"
+    "path": "../../scripts"
   },
   "dependencies": {
     "@types/ramda": "^0.27.40",
