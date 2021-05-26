@@ -131,7 +131,7 @@ export class App extends Component<AppProps, AppState> {
               <LinksList>
                 <Link
                   text="GitHub"
-                  url="https://github.com/tyhurson/cellscript-empire"
+                  url="https://github.com/tyhurson/cellscript.io"
                 />
               </LinksList>
             </Links>
