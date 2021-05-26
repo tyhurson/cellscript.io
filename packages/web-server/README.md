@@ -1,2 +1,0 @@
-# Cellscript Web Server
-**Cellscript Web Server** (`@cellscript/web-server`) is the server-side implementation of the game. It is a basic web server that is responsible for serving the more logic-heavy `@cellscript/game-web` bundle.

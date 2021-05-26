@@ -32,6 +32,7 @@
 .npmrc
 .pnp.js
 .vscode/*
+.next/
 /.pnp
 atlassian-ide-plugin.xml
 cmake-build-*/
@@ -40,6 +41,7 @@ dist
 lerna-debug.log
 node_modules
 npm-debug.log*
+out/
 tsconfig.tsbuildinfo
 yarn-debug.log*
 yarn-error.log*

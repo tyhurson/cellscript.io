@@ -1,38 +1,28 @@
 {
   "name": "@cellscript/game-web",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "author": "Tyler Hurson",
   "license": "MIT",
   "version": "0.0.1",
   "scripts": {
-    "build": "yarn run clean && yarn webpack --config ./webpack.production.ts",
-    "build:dev": "yarn webpack --config ./webpack.development.ts",
-    "clean": "scripty",
+    "build": "next build",
+    "clean": "scripty && rimraf .next",
+    "dev": "next dev",
     "lint": "scripty",
-    "start": "yarn webpack serve --config ./webpack.development.ts",
+    "start": "next start",
     "test": "echo temporarily disabled"
   },
   "scripty": {
     "path": "../../scripts"
   },
   "dependencies": {
-    "@cellscript/api": "^0.0.1",
-    "@cellscript/util": "^0.0.1",
-    "@types/react": "^17.0.7",
-    "@types/react-dom": "^17.0.5",
-    "@types/styled-components": "^5.1.9",
+    "next": "^10.2.3",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "styled-components": "^5.3.0"
+    "react-dom": "^17.0.2"
   },
-  "type": "module",
   "devDependencies": {
-    "html-webpack-plugin": "^5.3.1",
-    "ignore-emit-webpack-plugin": "^2.0.6",
-    "ts-loader": "^9.2.2",
-    "webpack": "^5.37.1",
-    "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2"
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
+    "@types/styled-jsx": "^2.2.8",
+    "typescript": "^4.2.4"
   }
 }
