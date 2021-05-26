@@ -1,10 +1,10 @@
 ![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiQTR1WklibW4xZ3JnVzVJdVRtMHJXUlFvRFlMcm9XdEZvcmlDYTdXRGVUMGQ0UWtKNXFka0NKTzB3cEE1emhrbFN3NHdONHVEbzJyenYzbFhJdWYrYzNvPSIsIml2UGFyYW1ldGVyU3BlYyI6ImtuME1NTHJjRSthK05mcE0iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
-# Cellscript Empire
-**Cellscript Empire** is a real-time, 4X-style empire-building strategy game set in a procedurally generated 2D world where the player controls units by writing Javascript code.
+# cellscript.io
+**cellscript.io** is a real-time, 4X-style empire-building strategy game set in a procedurally generated 2D world where the player controls units by writing Javascript code.
 
 ## Development Roadmap
-_Cellscript Empire_ is currently in development. You can track the progress of the project in the table below.
+cellscript.io is currently in development. You can track the progress of the project in the table below.
 
 |ETA|Status|Task|
 |---|---|---|
@@ -24,4 +24,4 @@ _Cellscript Empire_ is currently in development. You can track the progress of t
 This code is licensed under the [MIT License](./LICENSE), which grants permission to download, use, modify, or distribute the code.
 
 ## Contributing
-Cellscript Empire is open source, meaning anyone can contribute. See the [Contributing](./CONTRIBUTING.md) guide for more details.
+cellscript.io is open source, meaning anyone can contribute. See the [Contributing](./CONTRIBUTING.md) guide for more details.

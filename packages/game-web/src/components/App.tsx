@@ -114,9 +114,9 @@ export class App extends Component<AppProps, AppState> {
                 below.
               </Info>
             </Notice>
-            <Title>Cellscript Empire</Title>
+            <Title>cellscript.io</Title>
             <Info>
-              <b>Cellscript Empire</b> is a real-time, 4X-style empire-building
+              <b>cellscript.io</b> is a real-time, 4X-style empire-building
               strategy game set in a procedurally generated 2D world where the
               player controls units by writing Javascript code. The project is
               developed and maintained by{" "}

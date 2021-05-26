@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "description": "The monorepo for the web-based strategy game Cellscript Empire",
+  "description": "The monorepo for the web-based strategy game cellscript.io",
   "author": "Tyler Hurson",
   "license": "MIT",
   "private": true,
