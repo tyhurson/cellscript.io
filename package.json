@@ -12,7 +12,8 @@
   "homepage": "https://github.com/tyhurson/cellscript.io",
   "urls": {
     "game": "https://cellscript.io",
-    "reddit": "https://www.reddit.com/r/cellscript/"
+    "reddit": "https://www.reddit.com/r/cellscript/",
+    "twitter": "https://twitter.com/cellscript_io"
   },
   "bugs": {
     "url": "https://github.com/tyhurson/cellscript.io/issues",

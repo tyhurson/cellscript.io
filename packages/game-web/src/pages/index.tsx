@@ -17,8 +17,6 @@ function Anchor(props: AnchorProps) {
       </Link>
       <style jsx>{`
         a {
-          padding: 5px;
-          margin: 0 5px 0 5px;
           color: #8c76ff;
           text-decoration: none;
           transition: 250ms color;
@@ -45,18 +43,30 @@ export default function App() {
       <div className="outer">
         <div className="inner">
           <div className="notice">
-            <h2>🚧 In Development 🚧</h2>
+            <h1>🚧 Under Construction 🚧</h1>
             <div className="info">
-              This project is currently in development. The alpha version of the
-              game will be released on <b>July 4, 2021</b>. You can track the
-              development of the project by visiting the GitHub link below.
+              cellscript.io is currently in development. The alpha version of
+              the game is expected to release on <b>July 4, 2021</b>. Follow{" "}
+              <Anchor url={metaInfo.urls.twitter} text="@cellscript_io" /> on
+              Twitter for the latest updates.
+            </div>
+            <div className="info">
+              Questions about the game? Visit the official subreddit:{" "}
+              <Anchor url={metaInfo.urls.reddit} text="r/cellscript" />
             </div>
           </div>
           <div className="links">
-            <h3>Links</h3>
+            <h2>Links</h2>
             <div className="links-list">
-              <Anchor url={metaInfo.homepage} text="GitHub" />
-              <Anchor url={metaInfo.urls.reddit} text="Reddit" />
+              <div className="links-list-link">
+                <Anchor url={metaInfo.homepage} text="GitHub" />
+              </div>
+              <div className="links-list-link">
+                <Anchor url={metaInfo.urls.reddit} text="Reddit" />
+              </div>
+              <div className="links-list-link">
+                <Anchor url={metaInfo.urls.twitter} text="Twitter" />
+              </div>
             </div>
           </div>
         </div>
@@ -74,14 +84,15 @@ export default function App() {
           border-radius: 20px;
           display: flex;
           flex-direction: column;
-          padding: 40px;
+          padding: 25px;
           min-width: 300px;
-          max-width: 800px;
-          width: 50vw;
+          max-width: 40vw;
         }
-
-        h2,
-        h3 {
+        h1 {
+          font-size: 44px;
+        }
+        h1,
+        h2 {
           margin: 0;
           align-self: center;
         }
@@ -89,14 +100,10 @@ export default function App() {
         .notice {
           margin-bottom: 20px;
           align-self: center;
-          border: 4px dashed #ffe030;
-          padding: 20px;
           display: flex;
           flex-direction: column;
           align-items: center;
           text-align: center;
-          min-width: 400px;
-          max-width: 35vw;
         }
 
         .info {
@@ -115,6 +122,11 @@ export default function App() {
           margin-top: 10px;
           display: flex;
           justify-content: center;
+        }
+
+        .links-list-link {
+          padding: 5px;
+          margin: 0 5px 0 5px;
         }
       `}</style>
       <style jsx global>{`
