@@ -12,6 +12,9 @@ Builds each package, checking for Typescript errors.
 ## `clean`
 Removes `node_modules` from each package and cleans up build artifacts from each package.
 
+## `format`
+Reformats `.js`, `.jsx`, `.ts`, `.tsx`, and `.json` files using [Prettier](https://prettier.io/).
+
 ## `lint`
 Runs [ESLint](https://eslint.org/) against each package. If the linter returns any warnings or errors, this command will fail.
 

@@ -30,6 +30,7 @@
     "bootstrap": "yarn lerna bootstrap",
     "build": "yarn lerna bootstrap && yarn lerna run build",
     "clean": "yarn lerna clean --yes && yarn lerna run clean --parallel",
+    "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json}\"",
     "lint": "yarn lerna run lint --parallel",
     "reset": "yarn run clean && rimraf yarn.lock && rimraf package-lock.json && rimraf node_modules",
     "setup-dev-env": "npm install --global yarn && yarn global add lerna@4.0.0",
