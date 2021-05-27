@@ -1,28 +1,41 @@
 # Contributing
 Thanks for your interest in contributing. **cellscript.io** is currently in development and is not accepting pull requests at this time. Please check back later.
 
-## Prerequisites
-You must have the following packages installed on your machine.
-* Node.js + `npm` (see [Installing Node.js via package manager
-  ](https://nodejs.org/en/download/package-manager/))
-* `git` (see [Getting Started - Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
+## Required Software for Development
 
-You can verify that the packages are installed by running `node -v && npm -v && git --version`.
+### Node.js
+As this is a npm project, you must have Node.js installed.
+To install Node.js + npm, see [Installing Node.js via package manager
+  ](https://nodejs.org/en/download/package-manager/).
 
-## Initial Setup
-These steps only need to be completed once.
+### npm
+If you have installed Node.js, you already have [npm](https://www.npmjs.com/). The `npm` command is used only once in this project: to install [yarn](https://classic.yarnpkg.com/en/). You should always use the `yarn` command to run scripts instead of `npm`.
 
-1. Ensure you have completed all the prerequisites (see above).
-2. Clone this repository via `git clone`. Alternatively, you can [download](https://github.com/tyhurson/cellscript.io/archive/refs/heads/main.zip) the compressed project and extract it using `unzip`, [7-Zip](https://www.7-zip.org/download.html), or some other extraction utility.
+### Git
+We use [Git](https://git-scm.com/) for version control. To install Git, see [Getting Started - Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+
+## Recommended Software for Development
+
+### Visual Studio Code or JetBrains WebStorm
+It's recommended that you use an IDE that supports Typescript so that you can benefit from the various code assistance tools for Typescript. [Visual Studio Code](https://code.visualstudio.com/) is free to use and understands Typescript out of the box. [JetBrains WebStorm](https://www.jetbrains.com/webstorm/) is a more feature-rich IDE that includes out-of-the-box support for Typescript, as well as Javascript, HTML, CSS, and React- but requires a yearly subscription.
+
+## Initial Development Environment Setup
+1. Ensure you have all the required software (see above). You can verify this by running `node -v && npm -v && git --version`.
+2. Clone this repository on your local machine.
 ```
 git clone git@github.com:tyhurson/cellscript.io.git
 ```
-3. Navigate into the root directory of the cloned project and execute `npm run init`. This will execute the `init` script within `package.json`. This script will globally install `yarn` and `lerna`, and then run `lerna bootstrap` (the equivalent of `npm install`).
+3. Navigate into the project root directory. Execute the `setup-dev-env` script (defined in `package.json`) to globally install `yarn` and `lerna`. Both of these tools are required.
 ```
 cd cellscript.io/
-npm run init
+npm run setup-dev-env
 ```
-4. Run `yarn verify` to verify that all the packages build successfully and all the unit tests pass. This may take several seconds.
+4. Install each package within the project. Do not use `npm`.
 ```
-yarn verify
+yarn bootstrap
+```
+5. Verify that you can build each package and that all the unit tests pass.
+```
+yarn build && yarn test
 ```
