@@ -12,6 +12,9 @@ Builds each package, checking for Typescript errors.
 ## `clean`
 Removes `node_modules` from each package and cleans up build artifacts from each package.
 
+## `detect-dupes`
+Checks for [duplicate code](https://github.com/kucherenko/jscpd) in each package. This command fails if there is any duplicate code detected.
+
 ## `format`
 Reformats `.js`, `.jsx`, `.ts`, `.tsx`, and `.json` files using [Prettier](https://prettier.io/).
 

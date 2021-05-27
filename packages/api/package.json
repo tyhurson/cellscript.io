@@ -9,6 +9,7 @@
     "build": "scripty",
     "clean": "scripty",
     "compile": "scripty",
+    "detect-dupes": "scripty",
     "lint": "scripty",
     "test": "scripty"
   },

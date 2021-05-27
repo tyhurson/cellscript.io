@@ -6,6 +6,7 @@
   "scripts": {
     "build": "next build",
     "clean": "scripty && rimraf .next",
+    "detect-dupes": "scripty",
     "dev": "next dev",
     "lint": "scripty",
     "start": "next start",
