@@ -21,7 +21,7 @@ This is the monorepo for the game's source code, which includes all the npm pack
 |**Jul 4, 2021**|**-**|**Release alpha version 0.0.1**
 
 ## Community
-Visit the official cellscript.io subreddit [r/cellscript](https://www.reddit.com/r/cellscript/) to discuss the game, ask questions, and share your experience with other players.
+Visit the official subreddit [r/cellscript](https://www.reddit.com/r/cellscript/) to discuss the game, ask questions, and share your experience with other players.
 
 For topics related to development, use the [Issues tab](https://github.com/tyhurson/cellscript.io/issues) in this repository instead.
 
