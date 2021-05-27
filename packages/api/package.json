@@ -17,7 +17,6 @@
     "path": "../../scripts"
   },
   "dependencies": {
-    "@cellscript/engine": "^0.0.1",
     "@cellscript/util": "^0.0.1"
   },
   "type": "module"
