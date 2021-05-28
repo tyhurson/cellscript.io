@@ -22,11 +22,11 @@ It's recommended that you use an IDE that supports Typescript so that you can be
 
 ## Initial Development Environment Setup
 1. Ensure you have all the required software (see above).
-2. Clone this repository on your local machine.
+2. Clone this repository onto your local machine.
 ```
 git clone https://github.com/tyhurson/cellscript.io.git
 ```
-3. Navigate into the project root directory. Install and link each package within the project.
+3. Navigate into the project root directory. Install each package within the project.
 ```
 yarn install
 yarn bootstrap

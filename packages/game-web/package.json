@@ -4,16 +4,13 @@
   "license": "MIT",
   "version": "0.0.1",
   "scripts": {
-    "build": "next build",
-    "clean": "scripty && rimraf .next",
-    "detect-dupes": "scripty",
-    "dev": "next dev",
-    "lint": "scripty",
-    "start": "next start",
-    "test": "echo temporarily disabled"
-  },
-  "scripty": {
-    "path": "../../scripts"
+    "build": "yarn next build",
+    "clean": "yarn rimraf dist coverage ./*.tsbuildinfo .next",
+    "detect-dupes": "yarn jscpd --threshold 0 src",
+    "dev": "yarn next dev",
+    "lint": "yarn eslint src",
+    "start": "yarn next start",
+    "test": "yarn jest"
   },
   "dependencies": {
     "next": "^10.2.3",

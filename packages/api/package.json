@@ -6,15 +6,11 @@
   "license": "MIT",
   "version": "0.0.1",
   "scripts": {
-    "build": "scripty",
-    "clean": "scripty",
-    "compile": "scripty",
-    "detect-dupes": "scripty",
-    "lint": "scripty",
-    "test": "scripty"
-  },
-  "scripty": {
-    "path": "../../scripts"
+    "build": "yarn tsc -b .",
+    "clean": "yarn rimraf dist coverage ./*.tsbuildinfo",
+    "detect-dupes": "yarn jscpd --threshold 0 src",
+    "lint": "yarn eslint src",
+    "test": "yarn jest"
   },
   "dependencies": {
     "@cellscript/util": "^0.0.1"
