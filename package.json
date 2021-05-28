@@ -31,6 +31,7 @@
     "build": "yarn lerna run build",
     "clean": "yarn lerna clean --yes && yarn lerna run clean --parallel",
     "detect-dupes": "yarn lerna run detect-dupes --parallel",
+    "dev": "yarn lerna run --scope \"@cellscript/game-web\" --stream dev",
     "format": "yarn prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json}\"",
     "lint": "yarn lerna run lint --parallel",
     "reset": "yarn run clean && yarn rimraf yarn.lock package-lock.json node_modules",
