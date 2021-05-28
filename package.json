@@ -34,6 +34,7 @@
     "format": "yarn prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json}\"",
     "lint": "yarn lerna run lint --parallel",
     "reset": "yarn run clean && yarn rimraf yarn.lock package-lock.json node_modules",
+    "start": "yarn lerna run --scope \"@cellscript/game-web\" --stream start",
     "test": "yarn lerna run test --parallel",
     "version:major": "yarn lerna version major --no-push",
     "version:minor": "yarn lerna version minor --no-push",
